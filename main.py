@@ -16,14 +16,14 @@ start_message = """
 <b>👋Hello {}</b>
 <b>I am an AutoCaption bot</b>
 <b>All you have to do is add me to your channel and I will show you my power</b>
-<b>@kwicbotupdates</b>"""
+<b>@my_movieszz</b>"""
 
 about_message = """
-<b>• Name : <a href=https://t.me/kwic2002>kwic autocaption</a></b>
-<b>• Developer : <a href=https://t.me/kwicbotupdates>[KWICBOT UPDATES]</a></b>
+<b>• Name : <a href=https://t.me/toraroo6>MY autocaption</a></b>
+<b>• Developer : <a href=https://t.me/my_movieszz>[MY MOVIES]</a></b>
 <b>• Language : Python3</b>
 <b>• Library : Pyrogram v{version}</b>
-<b>• Updates : <a href=https://t.me/kwicbotupdates>Click Here</a></b>
+<b>• Updates : <a href=https://t.me/my_movieszz>Click Here</a></b>
 <b>• Source Code : <a href=https://github.com/PR0-99/CaptionBot-V1>Click Here</a></b>"""
 
 @AutoCaptionBotV1.on_message(pyrogram.filters.private & pyrogram.filters.command(["start"]))
@@ -87,6 +87,6 @@ def about_buttons(bot, update):
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
 print("Telegram AutoCaption V1 Bot Start")
-print("Bot Created By https://t.me/kwicbotupdates")
+print("Bot Created By https://t.me/my_movieszz")
 
 AutoCaptionBotV1.run()
